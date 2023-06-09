@@ -1,0 +1,33 @@
+Round-3
+Epoch 35
+
+DEBUG flwr 2023-04-19 16:56:11,721 | server.py:165 | evaluate_round 3: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-04-19 16:56:11,815 | server.py:179 | evaluate_round 3 received 2 results and 0 failures
+INFO flwr 2023-04-19 16:56:11,815 | server.py:144 | FL finished in 10.717603600001894
+INFO flwr 2023-04-19 16:56:11,815 | app.py:202 | app_fit: losses_distributed [(1, 0.19566263258457184), (2, 0.19079971313476562), (3, 0.34502747654914856)]
+INFO flwr 2023-04-19 16:56:11,815 | app.py:203 | app_fit: metrics_distributed {'accuracy': [(1, 0.9473684430122375), (2, 0.9561403393745422), (3, 0.8771929740905762)]}
+
+
+Decision Tree
+              precision    recall  f1-score   support
+
+           0       0.93      0.97      0.95        72
+           1       0.95      0.88      0.91        42
+
+    accuracy                           0.94       114
+   macro avg       0.94      0.93      0.93       114
+weighted avg       0.94      0.94      0.94       114
+
+Execution time: 0.15626072883605957 seconds
+
+RamdomForest
+              precision    recall  f1-score   support
+
+           0       0.93      0.99      0.96        72
+           1       0.97      0.88      0.93        42
+
+    accuracy                           0.95       114
+   macro avg       0.95      0.93      0.94       114
+weighted avg       0.95      0.95      0.95       114
+
+Execution time: 0.10937786102294922 seconds

@@ -1,0 +1,28 @@
+DEBUG flwr 2023-04-19 03:17:10,232 | server.py:179 | evaluate_round 3 received 2 results and 0 failures
+INFO flwr 2023-04-19 03:17:10,232 | server.py:144 | FL finished in 50.91174409999803
+INFO flwr 2023-04-19 03:17:10,232 | app.py:202 | app_fit: losses_distributed [(1, 0.27168914675712585), (2, 0.27675703167915344), (3, 0.2904324531555176)]
+INFO flwr 2023-04-19 03:17:10,232 | app.py:203 | app_fit: metrics_distributed {'accuracy': [(1, 0.8625954389572144), (2, 0.8893129825592041), (3, 0.8740457892417908)]}
+
+Epochs-30
+Round-3
+
+
+Decision Tree
+              precision    recall  f1-score   support
+
+           0       0.88      0.88      0.88       193
+           1       0.66      0.67      0.66        69
+
+    accuracy                           0.82       262
+   macro avg       0.77      0.77      0.77       262
+weighted avg       0.82      0.82      0.82       262
+
+RamdomForest
+              precision    recall  f1-score   support
+
+           0       0.89      0.92      0.90       193
+           1       0.77      0.70      0.73        69
+
+    accuracy                           0.86       262
+   macro avg       0.83      0.81      0.82       262
+weighted avg       0.86      0.87      0.85       262

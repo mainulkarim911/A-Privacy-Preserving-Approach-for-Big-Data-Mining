@@ -1,0 +1,40 @@
+Decision Tree
+
+              precision    recall  f1-score   support
+
+           0       0.92      1.00      0.96        35
+           1       1.00      0.78      0.88         9
+           2       1.00      0.96      0.98        25
+
+    accuracy  				   0.95
+   micro avg       0.96      0.96      0.96        69
+   macro avg       0.97      0.91      0.94        69
+weighted avg       0.96      0.96      0.96        69
+ samples avg       0.96      0.96      0.96        69
+
+RamdomForest
+
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.99        35
+           1       1.00      0.89      0.94         9
+           2       1.00      1.00      1.00        25
+
+    accuracy  				   0.98
+   micro avg       0.99      0.99      0.99        69
+   macro avg       0.99      0.96      0.98        69
+weighted avg       0.99      0.99      0.99        69
+ samples avg       0.99      0.99      0.99        69
+
+Execution time: 0.4302854537963867 seconds
+
+
+
+Epochs-20
+Round-3
+
+DEBUG flwr 2023-04-20 05:34:49,263 | server.py:165 | evaluate_round 3: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-04-20 05:34:49,341 | server.py:179 | evaluate_round 3 received 2 results and 0 failures
+INFO flwr 2023-04-20 05:34:49,341 | server.py:144 | FL finished in 4.299166599999808
+INFO flwr 2023-04-20 05:34:49,341 | app.py:202 | app_fit: losses_distributed [(1, 0.445463091135025), (2, 0.24123836308717728), (3, 0.14726395905017853)]
+INFO flwr 2023-04-20 05:34:49,341 | app.py:203 | app_fit: metrics_distributed {'accuracy': [(1, 0.9202898740768433), (2, 0.95652174949646), (3, 0.9927536249160767)]}

@@ -1,0 +1,21 @@
+              precision    recall  f1-score   support
+
+           0       0.97      0.97      0.97        32
+           1       0.93      0.93      0.93        14
+           2       1.00      1.00      1.00        23
+
+    Accuracy				   0.97
+   micro avg       0.97      0.97      0.97        69
+   macro avg       0.97      0.97      0.97        69
+weighted avg       0.97      0.97      0.97        69
+ samples avg       0.97      0.97      0.97        69
+
+
+Epochs-20
+Round-3
+
+DEBUG flwr 2023-04-20 05:34:49,263 | server.py:165 | evaluate_round 3: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-04-20 05:34:49,341 | server.py:179 | evaluate_round 3 received 2 results and 0 failures
+INFO flwr 2023-04-20 05:34:49,341 | server.py:144 | FL finished in 4.299166599999808
+INFO flwr 2023-04-20 05:34:49,341 | app.py:202 | app_fit: losses_distributed [(1, 0.445463091135025), (2, 0.24123836308717728), (3, 0.14726395905017853)]
+INFO flwr 2023-04-20 05:34:49,341 | app.py:203 | app_fit: metrics_distributed {'accuracy': [(1, 0.9202898740768433), (2, 0.95652174949646), (3, 0.9927536249160767)]}
